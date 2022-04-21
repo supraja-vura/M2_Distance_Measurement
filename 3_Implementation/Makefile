@@ -4,8 +4,8 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/user_utils.c
-src/display.c
+src\user_utils.c
+
 # All header file paths
 INC = -I inc
 
