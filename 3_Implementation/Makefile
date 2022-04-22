@@ -3,8 +3,8 @@ PROJ_NAME = Distance_Measuring
 BUILD_DIR = Build
 
 # All Source code files
-SRC = main.c\
-src/user_utils.c
+SRC = 3_Implementation/main.c\
+3_Implementation/src/user_utils.c
 
 # All header file paths
 INC = -I inc
