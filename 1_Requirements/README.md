@@ -4,7 +4,7 @@ The ultrasonic sensor emits a high-frequency sound pulse and calculates the dist
 
 ## Ultrasonic Sensor
 
-Ultrasonic Module HC-SR04 works on the principle of SONAR and RADAR system.HC-SR-04 module has an ultrasonic transmitter, receiver, and control circuit on a single board.The module has only 4 pins, Vcc, Gnd, Trig, and Echo.
+An ultrasonic sensor is an instrument that measures the distance to an object using ultrasonic sound waves. An ultrasonic sensor uses a transducer to send and receive ultrasonic pulses that relay back information about an object's proximity.Ultrasonic Module HC-SR04 works on the principle of SONAR and RADAR system.HC-SR-04 module has an ultrasonic transmitter, receiver, and control circuit on a single board.The module has only 4 pins, Vcc, Gnd, Trig, and Echo.
 
 ![image](https://user-images.githubusercontent.com/68106099/164624989-f48ac7e6-4591-4d6d-8645-21fe164f1e6c.png)
 
