@@ -1,2 +1,4 @@
 # M2_Distance_Measurement
-Distance measurement using ultrasonic sensor with AtMega328P
+
+[![Cppcheck Analysis](https://github.com/supraja-vura/M2_Distance_Measurement/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/supraja-vura/M2_Distance_Measurement/actions/workflows/c-cpp.yml)
+
