@@ -10,32 +10,54 @@ After that, the circuit that have been programmed with AT mega microcontroller w
 
 The device can be used in many different fields and categories like distance calculation in construction field, robots, car sensor to avoid obstacles and many other applications. The building process of the device was based on using as much as possible from the courses taken in the university, like Micro Processor, Basic Electronics Engineering, Multimedia and systems and Electronics Devices and also practical work in the laboratories.
 
-## FEATURES
+## FEATURES 
+* Indicates distance
+* Avoids accidents during parking
+* Ensures car and human safety
+* Doesn't require driver to check the distance manually
 
-- The ultrasonic sensor emits a high-frequency sound pulse
-- It calculates the distance depending  upon the time taken by the echo signal to travel back after reflecting from the desired target. 
-- The speed of sound is 341 meters per second in air. 
-- After the distance is calculated, it will be displayed on the LCD display. 
+### HIGH LEVEL REQUIREMENTS
+* Alarm system to make driver more conscious.
+* Light indication to know accurate distance.
+* To avoid accidents by maintaining distance.
 
-## DETAIL REQUIREMENTS
+### LOW LEVEL REQUIREMENTS
+* To avoid accidents by maintaing distance.
 
-### HIGH LEVEL REQUIREMENT
- - Turn ON the Buzzer when the object is too close
- - Turn ON the LED when the object is too close
- - Display the distance on the LCD
+# COMPONENTS
+ 
+## ULTRASONIC SENSORS 
 
-### LOW LEVEL REQUIREMENT
- - Display the distance on the LCD
+An ultrasonic sensor is an instrument that measures the distance to an object using ultrasonic sound waves. An ultrasonic sensor uses a transducer to send and receive ultrasonic pulses that relay back information about an object's proximity.Ultrasonic Module HC-SR04 works on the principle of SONAR and RADAR system.HC-SR-04 module has an ultrasonic transmitter, receiver, and control circuit on a single board.The module has only 4 pins, Vcc, Gnd, Trig, and Echo.
 
-## Block diagram
+![image](https://user-images.githubusercontent.com/68106099/164624989-f48ac7e6-4591-4d6d-8645-21fe164f1e6c.png)
+
+## AVR MICROCONTROLLER(ATMEGA328)
+
+ATmega328 is an Advanced Virtual RISC (AVR) microcontroller. It supports 8-bit data processing. ATmega-328 has 32KB internal flash memory.
+
+ATmega328 has 1KB Electrically Erasable Programmable Read-Only Memory (EEPROM). This property shows if the electric supply supplied to the micro-controller is removed, even then it can store the data and can provide results after providing it with the electric supply. Moreover, ATmega-328 has 2KB Static Random Access Memory (SRAM). Other characteristics will be explained later. ATmega 328 has several different features which make it the most popular device in today’s market. These features consist of advanced RISC architecture, good performance, low power consumption, real timer counter having separate oscillator, 6 PWM pins, programmable Serial USART, programming lock for software security, throughput up to 20 MIPS etc. Further details about ATmega 328 will be given later in this section.
+
+![image](https://user-images.githubusercontent.com/68106099/164624872-d36ceb69-df96-499b-a041-0dc9886d4ae0.png)
+
+## LCD DISPLAY
+
+LCD (Liquid Crystal Display) is a type of flat panel display which uses liquid crystals in its primary form of operation. LEDs have a large and varying set of use cases for consumers and businesses, as they can be commonly found in smartphones, televisions, computer monitors and instrument panels.
+LCDs were a big leap in terms of the technology they replaced, which include light-emitting diode (LED) and gas-plasma displays. LCDs allowed displays to be much thinner than cathode ray tube (CRT) technology. LCDs consume much less power than LED and gas-display displays because they work on the principle of blocking light rather than emitting it. Where an LED emits light, the liquid crystals in an LCD produces an image using a backlight.
+As LCDs have replaced older display technologies, LCDs have begun being replaced by new display technologies such as OLEDs.
+
+![image](https://user-images.githubusercontent.com/68106099/164625162-fd330ea4-bd85-4858-ac27-78204a8440ba.png)
+
+
+## BLOCK DIAGRAM
 
 ![image](https://user-images.githubusercontent.com/68106099/164502783-3218a2bb-2112-4b6d-b291-a6efea357dd2.png)
 
-## Circuit diagram
+## CIRCUIT DIAGRAM
 
 ![image](https://user-images.githubusercontent.com/68106099/164503482-7193886b-b85a-4185-98cf-6e134cc2028b.png)
 
-## Circuit Connection
+## CIRCUIT CONNECTION
 
 ![Screenshot (153)](https://user-images.githubusercontent.com/68106099/164714441-37d99332-148c-44e7-b2bf-95cddfd6ae6f.png)
 
@@ -52,7 +74,7 @@ The device can be used in many different fields and categories like distance cal
 |-------------|--------------------------------------------------------------|--------------------|-----------------|
 |  LL01     | Display the distance on LCD | Displays Distance | Displays Distance |
 
-## Timing Circuit
+## TIMING CIRCUIT
 
 ![image](https://user-images.githubusercontent.com/68106099/164503051-0045f826-9df9-4608-b359-666b5cf0dbcf.png)
 
