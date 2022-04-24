@@ -1,6 +1,6 @@
 ## Block Diagram
 
-![image](https://user-images.githubusercontent.com/68106099/164502783-3218a2bb-2112-4b6d-b291-a6efea357dd2.png)
+![bg](https://user-images.githubusercontent.com/68106099/164982764-9707ce74-9c95-431c-9670-625c5b278fb6.png)
 
 ## Pin Diagram of ATMEGA328
 
