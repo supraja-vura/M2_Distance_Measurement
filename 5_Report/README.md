@@ -90,3 +90,8 @@ This is a very economic technology and can be used in several other fields as we
 
 The importance of the project is calculating accurate distance from any obstacle that we want to measure. The device can be used in many different fields and categories like distance calculation in construction field, robots, car sensor to avoid obstacles and many other applications. 
 The building process of the device was based on using as much as possible from the courses taken in the university, like Micro Processor, Basic Electronics Engineering, Multimedia and systems and Electronics Devices and also practical work in the laboratories.
+
+## REFERENCES
+
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3628022
+- https://circuitdigest.com/microcontroller-projects/distance-measurement-using-hc-sr04-avr
